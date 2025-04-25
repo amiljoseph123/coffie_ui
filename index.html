@@ -3,48 +3,82 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Brew Bliss Coffee</title>
+  <title>Amil's Coffee Powder Store</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <div class="container">
-      <h1>Brew Bliss Coffee</h1>
-      <p>Your daily dose of happiness in a cup ☕</p>
-      <a href="#menu" class="btn">View Menu</a>
+
+  <header>
+    <nav>
+      <h1>CoffeePow</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero" id="home">
+      <h2>Buy Premium Coffee Powder</h2>
+      <p>Handpicked, roasted, and packed with love. Taste the freshness.</p>
+      <a href="#products" class="btn">Shop Now</a>
     </div>
   </header>
 
-  <section id="menu" class="menu-section">
-    <div class="container">
-      <h2>Our Menu</h2>
-      <div class="menu-grid">
-        <div class="menu-item">
-          <h3>Espresso</h3>
-          <p>Strong and bold, straight to the point.</p>
-          <span>$3.00</span>
-        </div>
-        <div class="menu-item">
-          <h3>Latte</h3>
-          <p>Espresso blended with steamed milk.</p>
-          <span>$4.00</span>
-        </div>
-        <div class="menu-item">
-          <h3>Cappuccino</h3>
-          <p>Perfect foam and balance of milk and espresso.</p>
-          <span>$4.50</span>
-        </div>
-        <div class="menu-item">
-          <h3>Mocha</h3>
-          <p>Chocolate meets coffee in a creamy delight.</p>
-          <span>$5.00</span>
-        </div>
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      
+      <div class="product">
+        <h3>Classic Blend</h3>
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Classic Blend">
+        <p>Smooth, bold, and aromatic coffee powder</p>
+        <span>$10 / 250g</span>
+        <button>Buy Now</button>
       </div>
+  
+      <div class="product">
+        <h3>Dark Roast</h3>
+        <img src="https://media.gettyimages.com/id/1271386167/photo/coffee.jpg?s=612x612&w=0&k=20&c=5gWShBS-lSa_ycm1_olcm9wric7dKYNMMm8Q780-A74=" alt="Dark Roast">
+        <p>Intense flavor, perfect for espresso lovers</p>
+        <span>$12 / 250g</span>
+        <button>Buy Now</button>
+      </div>
+  
+      <div class="product">
+        <h3>Filter Coffee</h3>
+        <img src="https://media.gettyimages.com/id/1325419832/photo/professional-grinding-freshly-roasted-coffee-in-a-espresso-machine.jpg?s=612x612&w=0&k=20&c=YdW0-3_wQA1sXu7HaDmP1eTMZqtdVFUgZ6VM-epM6MA=" alt="Filter Coffee">
+        <p>South Indian style filter coffee powder</p>
+        <span>$9 / 250g</span>
+        <button>Buy Now</button>
+      </div>
+  
     </div>
+  </section>
+  
+
+  <section id="why">
+    <h2>Why Choose Us?</h2>
+    <ul>
+      <li>✅ 100% Arabica beans</li>
+      <li>✅ Freshly ground and packed</li>
+      <li>✅ Free delivery on orders above $30</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
   </section>
 
   <footer>
-    <p>&copy; 2025 Brew Bliss Coffee. All rights reserved.</p>
+    <p>&copy; 2025 CoffeePow. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
